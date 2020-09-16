@@ -33,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="/home">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,7 +60,7 @@
               <div class="row">
                 <div class="col text-left">Hitung Volume Tabung</div>
                 <div class="col text-right">
-                  <a href="/tabung" class="btn btn-sm btn-dark">
+                  <a href="/home" class="btn btn-sm btn-dark">
                     <i class="fa fa-backspace"></i> Back 
                   </a>
                 </div>

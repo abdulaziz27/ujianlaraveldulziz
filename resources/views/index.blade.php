@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <title>Formula</title> 
     <style type="text/css">
-       
+      @import url('https://fonts.googleapis.com/css?family=Anton');
+      .nav-link {
+        color: #FFFFFF;
+      }
+      .nav-link:hover {
+        color: #F0E2C4;
+      }
+      .navbar-brand {
+        font-family: 'Anton', sans-serif;
+        color: #E6D82F;
+      }
+      .navbar-brand:hover {
+        color: #E6D82F;
+      }
     </style>   
   </head>
   <body>
@@ -19,8 +32,8 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/home">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -39,7 +52,11 @@
         </form>
       </div>
     </nav>
-    
+    <!-- <div class="container-fluid">
+      <div class="row">
+        <div class="col text-center">Maintenance</div>
+      </div>  
+    </div> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>   
